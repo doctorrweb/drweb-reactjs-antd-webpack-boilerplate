@@ -1,0 +1,28 @@
+{
+    "steps": [
+        {
+            "title": "Belegdaten",
+            "content": "First-content"
+        },
+        {
+            "title": "Wareneingänge",
+            "content": "Second-content"
+        },
+        {
+            "title": "Preise & Rabatte",
+            "content": "Third-content"
+        },
+        {
+            "title": "Nebenkosten",
+            "content": "Fourth-content"
+        },
+        {
+            "title": "Bezahldaten",
+            "content": "Fifth-content"
+        },
+        {
+            "title": "Zusammenfassung",
+            "content": "Last-content"
+        }
+    ]
+}

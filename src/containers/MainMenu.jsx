@@ -19,6 +19,8 @@ const MainMenu = ({visibility}) => {
             closable={false}
             onClose={() => onClose()}
             visible={visibility}
+            style={{ position: 'absolute' }}
+            getContainer={false}
         >
             <p>Some contents...</p>
             <p>Some contents...</p>

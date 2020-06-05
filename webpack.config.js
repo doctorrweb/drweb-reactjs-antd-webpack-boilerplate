@@ -23,7 +23,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                use: ["style-loader", "css-loader"],
             },
             {
                 test: /\.less$/,
@@ -44,6 +44,17 @@ module.exports = {
                     },
                 ],
             },
+            {
+                test: /\.(svg|eot|woff|ttf|svg|woff2)$/,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: "[path][name].[ext]",
+                        },
+                    },
+                ],
+            }
         ],
     },
     resolve: {

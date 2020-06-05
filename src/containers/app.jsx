@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout } from 'antd'
-import Form from './Form'
+import Main from '../components/main/Main'
 
 const { Header, Content, Footer } = Layout
 
@@ -8,12 +8,6 @@ const { Header, Content, Footer } = Layout
 const App = () => {
     return (
         <Layout>
-            <Header
-                theme="light"
-                style={{ position: 'fixed', backgroundColor: '#EFEFEF' }}
-            >
-                Header
-            </Header>
             <Layout
                 style={{
                     background: '#fff',
@@ -24,8 +18,7 @@ const App = () => {
                 <Content
                     style={{ margin: '0 16px', minHeight: 750 }}
                 >
-                    <Form />
-                    <p>... Put the content here !</p>
+                    <Main />
                 </Content>
             </Layout>
             <Footer style={{ textAlign: 'center' }}>ReactJS-Antd-Webpack Boilerplate ©2020 Created by doctorrWeb</Footer>
