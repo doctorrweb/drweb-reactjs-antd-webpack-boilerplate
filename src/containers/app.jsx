@@ -1,8 +1,8 @@
 import React from 'react'
-import { Layout } from 'antd'
-import Main from '../components/main/Main'
+import { Layout, Typography } from 'antd'
 
 const { Header, Content, Footer } = Layout
+const { Title } = Typography
 
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
                 <Content
                     style={{ margin: '0 16px', minHeight: 750 }}
                 >
-                    <Main />
+                    <Title level={1}>doctorrWeb Boilerplate</Title>
                 </Content>
             </Layout>
             <Footer style={{ textAlign: 'center' }}>ReactJS-Antd-Webpack Boilerplate ©2020 Created by doctorrWeb</Footer>
